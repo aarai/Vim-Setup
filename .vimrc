@@ -32,10 +32,6 @@ map <F2> a<C-R>=strftime("%c")<CR><Esc>
 filetype plugin on
 filetype indent on 
 
-" Map the 'jk' for Exit Mode Finally
-map jk <Esc>
-
-
 " I like <Ctrl>s for saving
 map ^S :w<Enter>
 
@@ -54,6 +50,9 @@ nmap x :exit<Enter>
 nmap nerd :NERDTreeToggle<Enter>
 nmap bk :Bookmark<Enter>
 
+" NERDTRee Plugin press <F5> to Start
+map <F5> :NERDTree<ENTER>
+
 " Map control tab to switch windows 
 map <C-Tab> <C-w>w
 
@@ -67,9 +66,6 @@ set showcmd
 " set context around cursor line (so I can always see a few lines below or
 " above current line)
 set scrolloff=3
-
-" NERDTRee Plugin press <CR> Caps Lock to Start
-map <F5> :NERDTree<ENTER>
 
 " Add specific template for file types
 autocmd BufNewFile  *.html	0r ~/.vim/skel/index.html
