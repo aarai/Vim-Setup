@@ -6,6 +6,9 @@
 set nocompatible
 colorscheme torte 
 set number
+
+set spell spelllang=en_us
+
 syntax on
 
 syntax enable
