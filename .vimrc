@@ -3,6 +3,8 @@
 " ALL VIM SETTINGS START
 " ================================================
 "
+"
+
 set nocompatible
 colorscheme torte 
 set number
