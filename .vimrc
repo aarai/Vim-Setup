@@ -15,6 +15,7 @@ filetype plugin on
 set noswapfile 
 
 " Set default font and size
+"	set guifont=Gohufont:h17
 set guifont=Neep\ 13
 
 " TAB WIDTH = 4 CHARACTERS
@@ -76,6 +77,10 @@ autocmd BufNewFile  *.css	0r ~/.vim/skel/index.css
 " Add html support for php files 
 au BufRead *.php set ft=php.html
 au BufNewFile *.php set ft=php.html
+
+" Add html support for erb files 
+au BufRead *.erb set ft=erb.html
+au BufNewFile *.erb set ft=erb.html
 
 " ================================================
 " GENERAL VIM SETTINGS END
