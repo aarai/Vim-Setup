@@ -3,12 +3,9 @@
 " ALL VIM SETTINGS START
 " ================================================
 "
-"
-
 set nocompatible
 colorscheme torte 
 set number
-
 set spell spelllang=en_us
 
 syntax on
@@ -18,7 +15,7 @@ filetype plugin on
 set noswapfile 
 
 " Set default font and size
-set guifont=Gohufont:h17
+set guifont=Neep\ 13
 
 " TAB WIDTH = 4 CHARACTERS
 set shiftwidth=2
