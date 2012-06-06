@@ -79,8 +79,8 @@ au BufRead *.php set ft=php.html
 au BufNewFile *.php set ft=php.html
 
 " Add html support for erb files 
-au BufRead *.erb set ft=erb.html
-au BufNewFile *.erb set ft=erb.html
+"au BufRead *.erb set ft=erb.html
+"au BufNewFile *.erb set ft=erb.html
 
 " ================================================
 " GENERAL VIM SETTINGS END
